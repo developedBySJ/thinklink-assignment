@@ -1,13 +1,6 @@
 import clsx from "clsx";
-import React, { useState } from "react";
-import {
-  ChevronDown,
-  Divide,
-  Edit,
-  Square,
-  Trash,
-  Trash2,
-} from "react-feather";
+import { useState } from "react";
+import { ChevronDown, Edit, Trash2 } from "react-feather";
 import wineData from "../../dummyData/wine";
 
 export const Inventory = () => {
@@ -24,7 +17,7 @@ export const Inventory = () => {
           </div>
 
           <h1 className="tracking-wider w-5/12 flex items-center gap-1">
-            Product <img src="/sort.svg" alt="sort-logo" className="h-3" />
+            Product
           </h1>
           <h1 className="tracking-wider w-2/12 flex items-center gap-1">
             Ratings <img src="/sort.svg" alt="sort-logo" className="h-3" />
